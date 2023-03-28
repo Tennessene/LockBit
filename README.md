@@ -2,18 +2,18 @@
 LockBit 3.0, also known as “LockBit Black,” is more modular and evasive than its previous versions and shares similarities with Blackmatter and Blackcat ransomware.
 
 ## Initial Access
-Affiliates deploying LockBit 3.0 ransomware gain initial access to victim networks via remote desktop protocol (RDP) exploitation [T1133], drive-by compromise [T1189], phishing campaigns [T1566], abuse of valid accounts [T1078], and exploitation of public-facing applications [T1190].
+Anyone deploying LockBit 3.0 ransomware gains initial access to victim networks via remote desktop protocol (RDP) exploitation, drive-by compromise, phishing campaigns, abuse of valid accounts, and exploitation of public-facing applications.
 
 ## Execution and Infiltration
-During the malware routine, if privileges are not sufficient, LockBit 3.0 attempts to escalate to the required privileges [TA0004]. LockBit 3.0 performs functions such as:
+During the malware routine, if privileges are not sufficient, LockBit 3.0 attempts to escalate to the required privileges. LockBit 3.0 performs functions such as:
 
-* Enumerating system information such as hostname, host configuration, domain information, local drive configuration, remote shares, and mounted external storage devices [T1082]
-* Terminating processes and services [T1489]
-* Launching commands [TA0002]
-* Enabling automatic logon for persistence and privilege escalation [T1547]
-* Deleting log files, files in the recycle bin folder, and shadow copies residing on disk [T1485], [T1490]
+* Enumerating system information such as hostname, host configuration, domain information, local drive configuration, remote shares, and mounted external storage devices
+* Terminating processes and services
+* Launching commands
+* Enabling automatic logon for persistence and privilege escalation
+* Deleting log files, files in the recycle bin folder, and shadow copies residing on disk
 
-After files are encrypted, LockBit 3.0 drops a ransom note with the new filename <Ransomware ID>.README.txt and changes the host’s wallpaper and icons to LockBit 3.0 branding [T1491.001]. If needed, LockBit 3.0 will send encrypted host and bot information to a command and control (C2) server [T1027].
+After files are encrypted, LockBit 3.0 drops a ransom note with the new filename <Ransomware ID>.README.txt and changes the host’s wallpaper and icons to LockBit 3.0 branding. If needed, LockBit 3.0 will send encrypted host and bot information to a command and control (C2) server.
 
 ## Mitigations
 * Have an anti-virus software seperate from the built-in defender installed.
